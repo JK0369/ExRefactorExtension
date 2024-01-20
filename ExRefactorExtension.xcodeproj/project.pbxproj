@@ -13,6 +13,8 @@
 		4A91D4C12B5B85CD00D09C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91D4BF2B5B85CD00D09C7C /* Main.storyboard */; };
 		4A91D4C32B5B85D000D09C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A91D4C22B5B85D000D09C7C /* Assets.xcassets */; };
 		4A91D4C62B5B85D000D09C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91D4C42B5B85D000D09C7C /* LaunchScreen.storyboard */; };
+		4A91D4CE2B5B896C00D09C7C /* MyButton+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91D4CD2B5B896C00D09C7C /* MyButton+Config.swift */; };
+		4A91D4D02B5B896F00D09C7C /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91D4CF2B5B896F00D09C7C /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4A91D4C22B5B85D000D09C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A91D4C52B5B85D000D09C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A91D4C72B5B85D000D09C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A91D4CD2B5B896C00D09C7C /* MyButton+Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyButton+Config.swift"; sourceTree = "<group>"; };
+		4A91D4CF2B5B896F00D09C7C /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4A91D4B92B5B85CD00D09C7C /* AppDelegate.swift */,
 				4A91D4BB2B5B85CD00D09C7C /* SceneDelegate.swift */,
 				4A91D4BD2B5B85CD00D09C7C /* ViewController.swift */,
+				4A91D4CD2B5B896C00D09C7C /* MyButton+Config.swift */,
+				4A91D4CF2B5B896F00D09C7C /* MyButton.swift */,
 				4A91D4BF2B5B85CD00D09C7C /* Main.storyboard */,
 				4A91D4C22B5B85D000D09C7C /* Assets.xcassets */,
 				4A91D4C42B5B85D000D09C7C /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				4A91D4BE2B5B85CD00D09C7C /* ViewController.swift in Sources */,
 				4A91D4BA2B5B85CD00D09C7C /* AppDelegate.swift in Sources */,
+				4A91D4D02B5B896F00D09C7C /* MyButton.swift in Sources */,
 				4A91D4BC2B5B85CD00D09C7C /* SceneDelegate.swift in Sources */,
+				4A91D4CE2B5B896C00D09C7C /* MyButton+Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
